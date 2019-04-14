@@ -44,8 +44,6 @@ def turn(board)
     display_board(board)
   else
     turn(board)
-    until valid_move? == TRUE
-  end
   end
 end
 
